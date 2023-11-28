@@ -1,6 +1,5 @@
 ﻿
 using csharp12;
-using System.Runtime.CompilerServices;
 using Bob = (int Number, string Name);
 
 var test = new PrimaryConstructors("bob", "jones");
