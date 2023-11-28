@@ -12,9 +12,6 @@ public class InstrumentedGenerator : ISourceGenerator
         {
             return;
         }
-
-        _ = receiver.MethodsToInstrument
-            .Select(x => x.)
     }
 
     public void Initialize(GeneratorInitializationContext context)
